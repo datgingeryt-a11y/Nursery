@@ -1,44 +1,199 @@
-/* --- Lioden Cave CSS Template --- */
-/* Credit to Katie (#106445) for original structural targets */
+/* BACKGROUND */
 
-/* 1. Background Settings */
 body {
-    background: url("https://i.postimg.cc/SNnPjPyQ/IMG-1866.png") repeat fixed center;
-    background-size: cover;
+  background: url('https://i.postimg.cc/SNnPjPyQ/IMG-1866.png') center center fixed;
+  background-size: cover;
+  color: #3E4D34;
 }
 
-/* 2. Main Container Panels */
-.container.main {
-    background: rgba(62, 77, 52, 0.85); /* Adjust opacity here */
-    border: 2px solid #5B4430; /* Frame border color */
-    border-radius: 8px;
+/* HEADERS */
+
+h1 {
+  color: #D8B55B !important;
+  text-shadow: 0 0 10px #000;
 }
 
-/* 3. Panel Headers & Title Bars */
-.topbar, .navbar, .panel {
-    background-color: #3E4D34 !important;
-    border-color: #5B4430 !important;
+h2 {
+  color: #D8B55B !important;
 }
 
-/* 4. Text and Link Colors */
-body, p, div, td {
-    color: #E8E2D4; /* Global text color */
+h3 {
+  color: #D8B55B !important;
 }
 
-a:link, a:visited {
-    color: #3d5725; /* Link color */
-    text-decoration: none;
+/* LINKS */
+
+a:link,
+a:visited {
+  color: #90B66E !important;
 }
 
 a:hover {
-    color: #b9d69f; /* Hovered link color */
+  color: #5e7549 !important;
 }
 
-/* 5. Custom Text Content Boxes (Optional) */
-.cave-box {
-    background: #2F3A2A;
-    border: 1px solid #5B4430;
-    padding: 10px;
-    margin-top: 15px;
-    border-radius: 4px;
+/* PANELS */
+
+.panel {
+  background: rgba(62, 77, 52, 0.7) !important;
+  color: #E8E2D4 !important;
+  border: 1px solid #5B4430 !important;
+  border-radius: 10px !important;
+}
+
+/* MAIN CONTAINER */
+
+.container.main {
+background: rgba(62, 77, 52, 0.7);
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+
+/* NAVBAR */
+
+.topbar {
+background: #2F3A2A !important;
+color: #E8E2D4 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background: #2F3A2A !important;
+color: #E8E2D4 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.navbar li a:hover {
+background: #2F3A2A !important;
+color: #E8E2D4 !important; }
+
+.top, .bottom, th {
+background: #2F3A2A !important;
+color: #E8E2D4 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.navbar-toggle {
+border: none !important;
+background: #2F3A2A !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+/* Bookmark Bar */
+
+.breadcrumb {
+background: #2F3A2A !important;
+color: #E8E2D44 !important;
+border: none !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #E8E2D4; }
+
+/* Comment Box */
+
+div#commentBox {
+background: #2F3A2A !important;
+border: none !important;
+border-radius: 0px !important;
+color: #E8E2D4 !important;}
+
+/* TABLE HEADERS */
+
+.top,
+.bottom,
+th {
+  background: #2F3A2A !important;
+  color: #E8E2D4 !important;
+}
+
+.feature {
+background: #3E4D34 !important;
+color: #E8E2D4 !important;
+border: 3px double #5B4430 !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: #3E4D34 !important;
+color: #E8E2D4 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.table .left {
+background: #3E4D34;
+border-radius: 0px !important; }
+
+.inner-table .left {
+background: #3E4D34 !important;
+border-radius: 0px !important;  }
+
+.inner-table .right {
+background: #3E4D34 !important;
+border-radius: 0px !important; 
+color: #E8E2D4 !important; } 
+
+.right_odd {
+background: #3E4D34 !important; }
+
+/* PROGRESS BARS */
+
+.progress {
+  background: #0B0813 !important;
+}
+
+.progress-bar {
+  background: #9C6A9A !important;
+}
+
+.progress-bar-warning {
+  background: #C8A75A !important;
+}
+
+.progress-bar-danger {
+  background: #7A3A57 !important;
+}
+
+.progress-bar-success {
+  background: #6F5B94 !important;
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(odd) {
+  background: #3E4D34 !important;
+}
+
+.s-chat-message:nth-child(even) {
+  background: #3E4D34 !important;
+}
+
+.s-chat-message {
+  color: #E8E2D4 !important;
+}
+
+/* BUTTONS */
+
+input,
+textarea,
+select,
+button.button,
+a.btn.btn-default.button {
+  background: #2C2140 !important;
+  color: #D7D0C9 !important;
+  border: 1px solid #9C6A9A !important;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar-track {
+  background: #3E4D34;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9C6A9A;
 }
