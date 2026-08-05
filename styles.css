@@ -1,0 +1,44 @@
+css/* --- Lioden Cave CSS Template --- */
+/* Credit to Katie (#106445) for original structural targets */
+
+/* 1. Background Settings */
+body {
+    background: url("https://i.postimg.cc/SNnPjPyQ/IMG-1866.png") repeat fixed center;
+    background-size: cover;
+}
+
+/* 2. Main Container Panels */
+.container.main {
+    background: rgba(62, 77, 52, 0.85); /* Adjust opacity here */
+    border: 2px solid #5B4430; /* Frame border color */
+    border-radius: 8px;
+}
+
+/* 3. Panel Headers & Title Bars */
+.topbar, .navbar, .panel {
+    background-color: #3E4D34 !important;
+    border-color: #5B4430 !important;
+}
+
+/* 4. Text and Link Colors */
+body, p, div, td {
+    color: #E8E2D4; /* Global text color */
+}
+
+a:link, a:visited {
+    color: #3d5725; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b9d69f; /* Hovered link color */
+}
+
+/* 5. Custom Text Content Boxes (Optional) */
+.cave-box {
+    background: #2F3A2A;
+    border: 1px solid #5B4430;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
